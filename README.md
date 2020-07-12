@@ -15,4 +15,7 @@
         Note: If there are more than one possibility in any of the above two cases, it will choose randomly any possibility
 
         * Worst Case, if neither Bot nor user can win, choose any random places from the available places
+    # How to start the game?
+        * go to project directory
+        * node main.js (NOTE: It won't work in vs code terminal as it doesn't accept the input from the user).
 
