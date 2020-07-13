@@ -1,5 +1,6 @@
 # ticTacToe
     * Fortunately I didn't see any requirement of using any 3rd party library outside node
+    * To make to user interactive via terminal I have tried message with colors over the terminal
     * Coming towards logic
         * I have used Single responsibility principle in all over the project
         * Every function and variable names are chosen in a sensible manner

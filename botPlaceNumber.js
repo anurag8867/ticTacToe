@@ -54,6 +54,19 @@ function findComputerPlaceNumber({ userInput, ticTacToeObject, gameObject, avail
                     possibilities.push(5);
                 }
             }
+            if (gameObject[2][0] === symbol && symbol === gameObject[1][1]) {
+                if (ticTacToeObject[3]) {
+                    possibilities.push(3);
+                }
+            } else if (gameObject[0][2] === symbol && symbol === gameObject[1][1]) {
+                if (ticTacToeObject[7]) {
+                    possibilities.push(7);
+                }
+            } else if (gameObject[2][0] === symbol && symbol === gameObject[0][2]) {
+                if (ticTacToeObject[5]) {
+                    possibilities.push(5);
+                }
+            }
             return (possibilities && possibilities.length) ? possibilities : null;
         },
         //This algo will choose a random number so our games's behaviour will keep chaging
